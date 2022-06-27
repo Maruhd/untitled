@@ -6,7 +6,7 @@ public static void main(String[] args) {
     CraditCard C2 = new CraditCard("2222 1111 2222 3333", 50);
     CraditCard C3 = new CraditCard("3333 2222 1111 4444", 75);
     C1.charge(20);
-    C2.charge(20);
+    C2.charge(22);
     C3.withdraw(30);
     C1.showCurrentInfo();
     C2.showCurrentInfo();
